@@ -1,0 +1,121 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+.logout-button {
+	font-size: 25px;
+	float: right;
+	padding-right: 50px;
+	text-decoration:none;
+}
+
+
+.heading {
+	font: 40px bold;
+	text-align: center;
+	color: #ffffff;
+	padding-bottom:5px;
+	margin-top: 5px; 
+	text-decoration:none;
+}
+
+.header {
+	padding-left: 25px;
+	font: 40px Arial, Helvetica, sans-serif;
+	height: 150px;
+	background: #50a3a2;
+	background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+	background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+	position: absolute;
+	width: 100%;
+}
+.header .header-anchor {
+	font: 36px Arial, Helvetica, sans-serif;
+	text-decoration: none!important;
+	/* padding-top:20px; */
+/* 	width: 80%; */
+	
+}
+
+
+.header .header-anchor :hover {
+	opacity: 1;
+}
+.heading-anchor-text{
+	/* padding-right: 10px; */
+	/* padding-left: 10px; */
+	
+	text-decoration:none;
+}
+
+
+
+
+
+
+.homePage-button
+{
+  text-transform: uppercase;			
+  letter-spacing: 1px;
+  text-align: center;
+  color: #0C5;
+
+  padding-right:10px; 
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  
+ 
+  text-decoration: none;
+
+
+
+  /* background: #000000; */
+  border: 1px solid #FFFFFF;
+  color: #FFF;
+  overflow: hidden;
+  
+  transition: all 0.5s;
+}
+
+.homePage-button:hover, .homePage-button:active 
+{
+  text-decoration: none;
+  color: #0C5;
+  border-color: #0C5;
+  background: #FFF;
+}
+
+.homePage-button span 
+{
+  padding-right: 0;
+  
+  transition: padding-right 0.5s;
+}
+
+.homePage-button span:after 
+{
+  content: ' ';  
+  top: 0;
+  opacity: 0;
+
+  background: rgba(0, 0, 0, 0);
+  border: 3px solid #FFF;
+  border-top: none;
+  border-right: none;
+
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform: rotate(-45deg);
+}
+
+
+.homePage-button:hover span:after, .homePage-button	:active span:after 
+{
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  opacity: 1;
+  border-color: #0C5;
+  right: 0;
+  top: 50%;
+}
+
+
+
+
